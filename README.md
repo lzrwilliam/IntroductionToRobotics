@@ -1,5 +1,4 @@
-# Do not reproduce this part
-# Introduction To Robotics (2021 - 2022) ---- do not reproduce this part
+# General description, do not include this section in your repo as well. Start with the next section.
 Repo mock-up for "Introduction to Robotics" course.
 
 Each homework will be described in a subcategory. The description should include:
@@ -11,7 +10,7 @@ Each homework will be described in a subcategory. The description should include
 
 Homework 0 (creating the repo and installing the Arduino IDE) does not need to be included in the description.
 
-# START REPRODUCING HERE
+# START REPRODUCING FROM BELOW THIS LINE
 # Introduction to Robotics (2021 - 2022)
 Description about the repo.
 Examples include, but are not limited to: "Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. Each homework includes requirements, implementation details, code and image files."
