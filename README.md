@@ -10,8 +10,9 @@ Each homework will be described in a subcategory. The description should include
 
 Homework 0 (creating the repo and installing the Arduino IDE) does not need to be included in the description.
 
-# START REPRODUCING FROM BELOW THIS LINE
-# Introduction to Robotics (2021 - 2022)
+## ---------------- START REPRODUCING FROM BELOW THIS LINE ----------------
+
+# Introduction to Robotics (2023 - 2024)
 Description about the repo.
 Examples include, but are not limited to: "Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. Each homework includes requirements, implementation details, code and image files."
   
