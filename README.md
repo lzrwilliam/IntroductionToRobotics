@@ -1,13 +1,13 @@
 # General description, do not include this section in your repo as well. Start with the next section.
-Repo mock-up for "Introduction to Robotics" course.
+Repo mock-up for "Introduction to Robotics" course. Overall functionality, naming and arrangement is important. 
 
 Each homework will be described in a subcategory. The description should include:
 - requirement
 - files (naming must respect the standard in the requirement)
 - implementation details (if aplicable)
 - picture of the setup
-- video of the setup (if necessary or desired)
-
+- video
+- 
 Homework 0 (creating the repo and installing the Arduino IDE) does not need to be included in the description.
 
 ## ---------------- START REPRODUCING FROM BELOW THIS LINE ----------------
