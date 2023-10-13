@@ -7,8 +7,8 @@ Each homework will be described in a subcategory. The description should include
 - implementation details (if aplicable)
 - picture of the setup
 - video
-- 
-Homework 0 (creating the repo and installing the Arduino IDE) does not need to be included in the description.
+  
+Homework 0 (completing the form) and Homework 1 (creating the PRIVATE repo, adding the TA users to it and installing the Arduino IDE) does not need to be included in the description.
 
 ## ---------------- START REPRODUCING FROM BELOW THIS LINE ----------------
 
