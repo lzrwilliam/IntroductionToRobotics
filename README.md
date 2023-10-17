@@ -6,6 +6,6 @@ I am passionated about Computer Science, especially about networking and now day
 This repository is a collection of projects and coursework completed during my introduction to robotics. It is a way to share my learning experience and to manage it in a productive way.
 
 
-What You'll Find
+Expectation of things to be found here
 
 The current repository will contain all of my work during this semester during the "Introduction to Robotics" laboratory. It will contain detailed instructions such as images, explanations of the code implementations, video recordings and technical drawings.
