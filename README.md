@@ -7,4 +7,5 @@ This repository is a collection of projects and coursework completed during my i
 
 
 What You'll Find
+
 The current repository will contain all of my work during this semester during the "Introduction to Robotics" laboratory. It will contain detailed instructions such as images, explanations of the code implementations, video recordings and technical drawings.
