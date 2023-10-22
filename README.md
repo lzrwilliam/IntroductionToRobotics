@@ -12,7 +12,8 @@ This repository is a collection of projects and coursework completed during my i
 
 The current repository will contain all of my work during this semester during the "Introduction to Robotics" laboratory. It will contain detailed instructions such as images, explanations of the code implementations, video recordings and technical drawings.
 
-****Homework 2****
+**Homework 2**
+
 This homework consists in having an RGB(Red-Green-Blue) Led controlled by 3 potentiometers, combining the intensity of each colour in order to obtain any possible colour. For controlling the intensity of each colour of the led, we use a separate potentiometer, so we will have 3 in total, along with 3 resistors for each channel. 
 ![WhatsApp Image 2023-10-23 at 00 57 36](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/8e7bcefb-2e53-41c1-a0d0-27277a6ed436)
 
