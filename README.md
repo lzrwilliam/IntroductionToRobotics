@@ -23,8 +23,7 @@ This homework consists in having an RGB(Red-Green-Blue) Led controlled by 3 pote
 
 
 
-**Homework 3**
-
+**Homework 3 Momentan am uitat trusa de arduino la bucuresti, si de aceea am postat in tinkercad montajul, o sa corectez duminica-luni si modific si aici**
 
 This code simulates an elevator system using an Arduino. The system can handle requests for three different floors,but floors can be added in the code very easily because we use arrays and the code is scalable. It uses LEDs to indicate the current floor of the elevator and another blinking LED to signify the elevator is moving. The elevator waits for a floor button to be pressed, closes its "doors" (signified by a tone), moves to the requested floor after a chosen delay by us, and then opens its "doors" (indicated by another tone). 
 
