@@ -26,7 +26,8 @@ This homework consists in having an RGB(Red-Green-Blue) Led controlled by 3 pote
 **Homework 3**
 
 
-This code simulates an elevator system using an Arduino. The system can handle requests for three different floors,but floors can be added in the code very easily because we use arrays and the code is scalable. It uses LEDs to indicate the current floor of the elevator and another blinking LED to signify the elevator is moving. The elevator waits for a floor button to be pressed, closes its "doors" (signified by a tone), moves to the requested floor after a chosen delay by us, and then opens its "doors" (indicated by another tone). The system also utilizes a debounce function to ensure button presses are not falsely detected due to rapid pressing or electrical interference.
+This code simulates an elevator system using an Arduino. The system can handle requests for three different floors,but floors can be added in the code very easily because we use arrays and the code is scalable. It uses LEDs to indicate the current floor of the elevator and another blinking LED to signify the elevator is moving. The elevator waits for a floor button to be pressed, closes its "doors" (signified by a tone), moves to the requested floor after a chosen delay by us, and then opens its "doors" (indicated by another tone). 
+The system also utilizes a debounce function to ensure button presses are not falsely detected due to rapid pressing or electrical interference.
 We use a State Machine in order to control the elevator that has 4 states:  Asteptare, InchidereUsi (closing the doors before leaving the current floor), InMiscare (moving), and DeschidereUsiLaDestinatie (opening doors when the desired floor is reached). If we want we can add another states like Emergency Stop, without a lot of work and keeps the code clean and very easy to be understood.
 
 [Vizionati Implementarea Liftului](https://www.youtube.com/watch?v=gr_ndrQBNs8)
