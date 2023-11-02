@@ -24,23 +24,24 @@ This homework consists in having an RGB(Red-Green-Blue) Led controlled by 3 pote
 
 <details>
   <summary>
-Homework 3 Momentan am uitat trusa de arduino la bucuresti, si de aceea am postat in tinkercad montajul, o sa corectez duminica-luni si modific si aici
+Homework 3 - Simulating an Elevator
   </summary>
   <br> <br>
 
-This code simulates an elevator system using an Arduino. The system can handle requests for three different floors,but floors can be added in the code very easily because we use arrays and the code is scalable. It uses LEDs to indicate the current floor of the elevator and another blinking LED to signify the elevator is moving. The elevator waits for a floor button to be pressed, closes its "doors" (signified by a tone), moves to the requested floor after a chosen delay by us, and then opens its "doors" (indicated by another tone). 
+This code simulates an elevator system using an Arduino. The system can handle requests for three different floors,but floors can be added in the code very easily because we use arrays and the code is scalable. It uses LEDs to indicate the current floor of the elevator and another blinking green LED to signify the elevator is moving. The elevator waits for a floor button to be pressed, closes its "doors" (signified by a tone), moves to the requested floor after a chosen delay by us, and then opens its "doors" (indicated by another tone). When moving between floors, the led of each floor lights up for a few seconds when the elevator reaches it, no matter if it is not the destination floor.
 
-The system also utilizes a debounce function to ensure button presses are not falsely detected due to rapid pressing or electrical interference.
+The system also utilizes a debounce function to ensure button presses are not falsely detected due to rapid pressing or electrical interference. The debounce is implemented using the millis function.
 We use a State Machine in order to control the elevator that has 4 states:  Asteptare, InchidereUsi (closing the doors before leaving the current floor), InMiscare (moving), and DeschidereUsiLaDestinatie (opening doors when the desired floor is reached). If we want we can add another states like Emergency Stop, without a lot of work and keeps the code clean and very easy to be understood.
 
 
 
+<br> <br> <br>
 
-![tema3](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/96b406cd-98ff-499f-8c88-9e5d409f196e)
+![WhatsApp Image 2023-11-03 at 00 30 57](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/3704d839-7fcb-4cce-ac7b-0e0bb6922176)
 
 
 
-[Vizionati Implementarea](https://www.youtube.com/watch?v=gr_ndrQBNs8)
+[Vizionati Implementarea](https://youtube.com/shorts/yq_iRp4QMCM)
 </details>
 
 
