@@ -46,7 +46,7 @@ We use a State Machine in order to control the elevator that has 4 states:  Aste
 
 <details>
 
-  <summary> Homework 4 - 7 Digit Display with Joystick</summary>
+  <summary> Homework 4 - 7 Digit Display with a Joystick</summary>
 <br> <br>
   This homework purpose is to understand the functionalities of the 7 Digit Display and Joystick. We are required to move with the joystick on the 7 Digit Display, from neighbour to neighour, having provided a list of possible neighbours for each segment of the 7 Digit Display. 
   
