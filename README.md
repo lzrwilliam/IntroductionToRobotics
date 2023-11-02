@@ -12,18 +12,21 @@ This repository is a collection of projects and coursework completed during my i
 
 The current repository will contain all of my work during this semester during the "Introduction to Robotics" laboratory. It will contain detailed instructions such as images, explanations of the code implementations, video recordings and technical drawings.
 
-**Homework 2**
+<details> <summary>  Homework 2 </summary>
 
 This homework consists in having an RGB(Red-Green-Blue) Led controlled by 3 potentiometers, combining the intensity of each colour in order to obtain any possible colour. For controlling the intensity of each colour of the led, we use a separate potentiometer, so we will have 3 in total, along with 3 resistors for each channel. 
 ![WhatsApp Image 2023-10-23 at 00 57 36](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/8e7bcefb-2e53-41c1-a0d0-27277a6ed436)
 
 [Vizionați implementarea](https://www.youtube.com/shorts/faK9UB8ilXU)
 
+</details>
 
 
-
-
-**Homework 3 Momentan am uitat trusa de arduino la bucuresti, si de aceea am postat in tinkercad montajul, o sa corectez duminica-luni si modific si aici**
+<details>
+  <summary>
+Homework 3 Momentan am uitat trusa de arduino la bucuresti, si de aceea am postat in tinkercad montajul, o sa corectez duminica-luni si modific si aici
+  </summary>
+  <br> <br>
 
 This code simulates an elevator system using an Arduino. The system can handle requests for three different floors,but floors can be added in the code very easily because we use arrays and the code is scalable. It uses LEDs to indicate the current floor of the elevator and another blinking LED to signify the elevator is moving. The elevator waits for a floor button to be pressed, closes its "doors" (signified by a tone), moves to the requested floor after a chosen delay by us, and then opens its "doors" (indicated by another tone). 
 
@@ -33,8 +36,29 @@ We use a State Machine in order to control the elevator that has 4 states:  Aste
 
 
 
-
 ![tema3](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/96b406cd-98ff-499f-8c88-9e5d409f196e)
 
 
-[Vizionati Implementarea (https://www.youtube.com/watch?v=gr_ndrQBNs8)
+
+[Vizionati Implementarea](https://www.youtube.com/watch?v=gr_ndrQBNs8)
+</details>
+
+
+<details>
+
+  <summary> Homework 4 - 7 Digit Display with Joystick</summary>
+<br> <br>
+  This homework purpose is to understand the functionalities of the 7 Digit Display and Joystick. We are required to move with the joystick on the 7 Digit Display, from neighbour to neighour, having provided a list of possible neighbours for each segment of the 7 Digit Display. 
+  
+  The start position is the DP segment and the only possible neighbour segment is on the left side and other movements like Right, Left, Up / Down, will change nothing. 
+  
+  The current position must always blink, no matter if the segment state is ON or OFF, and if we press the joystick button for a short period of time, the current segment will change its state from HIGH to LOW or from LOW to HIGH. Also, if the button is pressed longer (3-4 seconds), when released, the 7 Digit Display will reset to the default state where the DP is the current position and all the other segments are OFF.
+
+<br> <br>
+ ![WhatsApp Image 2023-11-02 at 14 31 23](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/7f1c2cd5-8e9e-4ee5-b2a3-94a3da1c7e49) 
+
+ [Vizionati functionalitatea](https://youtube.com/shorts/nMcQfggGcKI) 
+
+
+  
+</details>
