@@ -48,11 +48,11 @@ We use a State Machine in order to control the elevator that has 4 states:  Aste
 
   <summary> Homework 4 - 7 Digit Display with a Joystick</summary>
 <br> <br>
-  This homework purpose is to understand the functionalities of the 7 Digit Display and Joystick. We are required to move with the joystick on the 7 Digit Display, from neighbour to neighour, having provided a list of possible neighbours for each segment of the 7 Digit Display. 
+  This homework purpose is to understand the functionalities of the 7 Digit Display and  of the Joystick. We are required to move with the joystick on the 7 Digit Display, from neighbour to neighour, having provided a list of possible neighbours for each segment of the 7 Digit Display. 
   
-  The start position is the DP segment and the only possible neighbour segment is on the left side and other movements like Right, Left, Up / Down, will change nothing. 
+  The start position is the DP segment and the only possible neighbour segment is on the left side and other movements like Right, Left, Up / Down, will change nothing on the display.
   
-  The current position must always blink, no matter if the segment state is ON or OFF, and if we press the joystick button for a short period of time, the current segment will change its state from HIGH to LOW or from LOW to HIGH. Also, if the button is pressed longer (3-4 seconds), when released, the 7 Digit Display will reset to the default state where the DP is the current position and all the other segments are OFF.
+  The current position must always blink, no matter if the segment state is ON or OFF, and if we press the joystick button for a short period of time, the current segment will change its state from HIGH to LOW or from LOW to HIGH. Also, if the button is pressed longer (3-4 seconds), when released, the 7 Digit Display will reset to the default state where the DP is the current position and all the other segments are OFF. To determine the presstime, it is forbiddent to use of delay(), instead we use the millis() function.
 
 <br> <br>
  ![WhatsApp Image 2023-11-02 at 14 31 23](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/7f1c2cd5-8e9e-4ee5-b2a3-94a3da1c7e49) 
