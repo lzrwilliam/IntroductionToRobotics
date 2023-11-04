@@ -41,7 +41,7 @@ We use a State Machine in order to control the elevator that has 4 states:  Aste
 
 
 
-[Vizionati Implementarea](https://www.youtube.com/watch?v=yqiRp4QMCM)
+[Vizionati Implementarea](https://www.youtube.com/watch?v=yq_iRp4QMCM)
 </details>
 
 
