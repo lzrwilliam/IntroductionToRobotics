@@ -1,0 +1,40 @@
+tema 1 robotica - control cu 3 potentiometre pe led rgb.txt
+const int PotentiometruAlbastru=A0;
+const int PotentimetruVerde= A1;
+const int PotentimetruRosu= A2;
+
+
+const int PortRgbAlbastru=9;
+const int PortRgbVerde=10;
+const int PortRgbRosu=11;
+
+
+
+const int MaxAnalog=1023;
+const int MaxDigital=255;
+void setup() {
+
+pinMode(PortRgbAlbastru, OUTPUT);
+pinMode(PortRgbVerde, OUTPUT);
+pinMode(PortRgbRosu, OUTPUT);
+
+  Serial.begin(9600);
+
+}
+
+void loop() {
+  int ValoareAlbastru= analogRead(PotentiometruAlbastru);
+  int ValoareVerde=analogRead(PotentimetruVerde);
+  int ValoareRosu=analogRead(PotentimetruRosu);
+
+
+  int IntensitateAlbastru = map(ValoareAlbastru,0,MaxAnalog,0,MaxDigital);
+  int IntensitateVerde=map(ValoareVerde,0,MaxAnalog,0,MaxDigital);
+  int IntensitateRosu=map(ValoareRosu, 0, MaxAnalog,0 , MaxDigital);
+
+
+  analogWrite(PortRgbAlbastru, IntensitateAlbastru);
+  analogWrite(PortRgbVerde, IntensitateVerde);
+  analogWrite(PortRgbRosu,IntensitateRosu);
+
+}
