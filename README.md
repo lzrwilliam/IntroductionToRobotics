@@ -17,7 +17,7 @@ The current repository will contain all of my work during this semester during t
 This homework consists in having an RGB(Red-Green-Blue) Led controlled by 3 potentiometers, combining the intensity of each colour in order to obtain any possible colour. For controlling the intensity of each colour of the led, we use a separate potentiometer, so we will have 3 in total, along with 3 resistors for each channel. 
 ![WhatsApp Image 2023-10-23 at 00 57 36](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/8e7bcefb-2e53-41c1-a0d0-27277a6ed436)
 
-[Vizionați implementarea](https://www.youtube.com/shorts/faK9UB8ilXU)
+[Vizionați implementarea](https://www.youtube.com/watch/faK9UB8ilXU)
 
 </details>
 
@@ -41,7 +41,7 @@ We use a State Machine in order to control the elevator that has 4 states:  Aste
 
 
 
-[Vizionati Implementarea](https://youtube.com/shorts/yq_iRp4QMCM)
+[Vizionati Implementarea](https://www.youtube.com/watch?v=yqiRp4QMCM)
 </details>
 
 
@@ -58,7 +58,7 @@ We use a State Machine in order to control the elevator that has 4 states:  Aste
 <br> <br>
  ![WhatsApp Image 2023-11-02 at 14 31 23](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/7f1c2cd5-8e9e-4ee5-b2a3-94a3da1c7e49) 
 
- [Vizionati functionalitatea](https://youtube.com/shorts/nMcQfggGcKI) 
+ [Vizionati functionalitatea](https://youtube.com/watch/nMcQfggGcKI) 
 
 
   
