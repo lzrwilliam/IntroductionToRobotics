@@ -77,7 +77,11 @@ The functionalities of the buttons are the following: <details> <summary> Button
 
 When we press the Start Button, the timer will start and the time will be displayed in the format 000.0, for example if it has been passing 50.4 seconds since the timer has started, the displayed value will be 050.4 seconds. When we press the Save Lap button, we save up to 4 laps, and if there are already 4 saved states, we will overwrite the existing ones, beginning from the first saved state. Also, pressing the Reset Button while the timer is counting will have no effect.
 
-In the Pause mode, the Save Button Lap will not work, and the first pressing of Reset Button resets the timer back to 000.0 seconds, but keeps the saved laps. After that press, if we press the Save Lap Button, we will move between the saved lap cycles, and the reset button will also now reset the lap cycles and the timer back to 000.0 seconds.
+In the Pause mode, the Save Button Lap will not work, and the first pressing of Reset Button resets the timer back to 000.0 seconds, but keeps the saved laps. After that press, if we press the Save Lap Button, we will move between the saved lap cycles in ascending order, and in the descending order if we press the start/pause button, and the reset button will also now reset the lap cycles and the timer back to 000.0 seconds.
 
-  
+<br> <br>
+  ![WhatsApp Image 2023-11-09 at 23 46 01](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/317a6b70-fd71-4024-bac4-815d83574d27)
+
+  [Vizionati functionalitatea](https://www.youtube.com/watch?v=_rE9K5HRT-I)
+
 </details>
