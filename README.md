@@ -63,3 +63,21 @@ We use a State Machine in order to control the elevator that has 4 states:  Aste
 
   
 </details>
+
+
+
+<details>
+<summary> Homework 5 - StopWatch Timer </summary>
+<br> <br>
+
+The purpose of this homework is to get familiar with working with a 4-Digit 7-Segment LED display and a Shift Register (74HC595) to have more outputs (8) in exchange of using 3 input pins. 
+
+For this homework, we will be using 3 buttons along side with a 4-Digit 7-Segment LED display, in order to implement a stopwatch timer that counts in 10ths of a second and can save up to 4 laps, just like our phones.
+The functionalities of the buttons are the following: <details> <summary> Button 1 </summary>Button 1 is for starting or pausing the counting of the time </details> <details><summary> Button 2 </summary>Button 2 serves as a Reset Button, but only if the timer is on pause mode and it resets the displayed time to 000.0 and the saved laps if the viewing lap mode is active. </details>  <details><summary> Button 3 </summary>Button 3 purpose is to save a lap when pressed if the timer is in counting mode, or cycling through the laps if the timer is on pause, having a buzzer that indicates the Save Lap button has been pressed. </details>
+
+When we press the Start Button, the timer will start and the time will be displayed in the format 000.0, for example if it has been passing 50.4 seconds since the timer has started, the displayed value will be 050.4 seconds. When we press the Save Lap button, we save up to 4 laps, and if there are already 4 saved states, we will overwrite the existing ones, beginning from the first saved state. Also, pressing the Reset Button while the timer is counting will have no effect.
+
+In the Pause mode, the Save Button Lap will not work, and the first pressing of Reset Button resets the timer back to 000.0 seconds, but keeps the saved laps. After that press, if we press the Save Lap Button, we will move between the saved lap cycles, and the reset button will also now reset the lap cycles and the timer back to 000.0 seconds.
+
+  
+</details>
