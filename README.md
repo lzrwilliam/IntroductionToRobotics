@@ -32,6 +32,7 @@ This code simulates an elevator system using an Arduino. The system can handle r
 
 The system also utilizes a debounce function to ensure button presses are not falsely detected due to rapid pressing or electrical interference. The debounce is implemented using the millis function.
 We use a State Machine in order to control the elevator that has 4 states:  Asteptare, InchidereUsi (closing the doors before leaving the current floor), InMiscare (moving), and DeschidereUsiLaDestinatie (opening doors when the desired floor is reached). If we want we can add another states like Emergency Stop, without a lot of work and keeps the code clean and very easy to be understood.
+To be mentioned, to realize this homework succesfully, the help of ChatGPT has been used, to understand better some functionalities and particularties of coding and hardware.
 
 
 
@@ -54,6 +55,7 @@ We use a State Machine in order to control the elevator that has 4 states:  Aste
   The start position is the DP segment and the only possible neighbour segment is on the left side and other movements like Right, Left, Up / Down, will change nothing on the display.
   
   The current position must always blink, no matter if the segment state is ON or OFF, and if we press the joystick button for a short period of time, the current segment will change its state from HIGH to LOW or from LOW to HIGH. Also, if the button is pressed longer (3-4 seconds), when released, the 7 Digit Display will reset to the default state where the DP is the current position and all the other segments are OFF. To determine the presstime, it is forbiddent to use of delay(), instead we use the millis() function.
+  To be mentioned, to realize this homework succesfully, the help of ChatGPT has been used, to understand better some functionalities and particularties of coding and hardware.
 
 <br> <br>
  ![WhatsApp Image 2023-11-02 at 14 31 23](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/7f1c2cd5-8e9e-4ee5-b2a3-94a3da1c7e49) 
@@ -80,7 +82,7 @@ Button 3 purpose is to save a lap when pressed if the timer is in counting mode,
 
 When we press the Start Button, the timer will start and the time will be displayed in the format 000.0, for example if it has been passing 50.4 seconds since the timer has started, the displayed value will be 050.4 seconds. When we press the Save Lap button, we save up to 4 laps, and if there are already 4 saved states, we will overwrite the existing ones, beginning from the first saved state. Also, pressing the Reset Button while the timer is counting will have no effect.
 
-In the Pause mode, the Save Button Lap will not work, and the first pressing of Reset Button resets the timer back to 000.0 seconds, but keeps the saved laps. After that press, if we press the Save Lap Button, we will move between the saved lap cycles in ascending order, and in the descending order if we press the start/pause button, and the reset button will also now reset the lap cycles and the timer back to 000.0 seconds, restoring the initial functionality of the start/pause button.
+In the Pause mode, the Save Button Lap will not work, and the first pressing of Reset Button resets the timer back to 000.0 seconds, but keeps the saved laps. After that press, if we press the Save Lap Button, we will move between the saved lap cycles in ascending order, and in the descending order if we press the start/pause button, and the reset button will also now reset the lap cycles and the timer back to 000.0 seconds, restoring the initial functionality of the start/pause button. To be mentioned, to realize this homework succesfully, the help of ChatGPT has been used, to understand better some functionalities and particularties of coding and hardware.
 
 <br> <br>
   ![WhatsApp Image 2023-11-09 at 23 46 01](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/317a6b70-fd71-4024-bac4-815d83574d27)
