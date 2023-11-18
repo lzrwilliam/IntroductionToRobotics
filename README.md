@@ -90,3 +90,52 @@ In the Pause mode, the Save Button Lap will not work, and the first pressing of 
   [Vizionati functionalitatea](https://www.youtube.com/watch?v=_rE9K5HRT-I)
 
 </details>
+
+
+<details>
+  <summary> Homework 6 - Smart Environment Monitor </summary>
+  <br> <br>
+  The purpose of this homework is to get familiar with sensors such as LDR and Ultrasonic,creating a responsive and efficiently menu and most importantly, using the EEPROM memory.
+  For this homework we will be using the following components:  <details> <summary> RGB Led </summary> <br>
+    This RGB Led display only Red or Green colour. The Red colour is displayed if one of our sensors are outside the set value by us from keyboard, or Green otherwise, if the RGB Led is on AUTO mode. 
+    Also, if the AUTO mode is off, in the manual mode, we can enter the 'r' or 'g' to change the led color to wheather Red or Green color.
+    The led colour is saved everytime, so if we restart the circuit and the auto mode is off; the RGB Led will have the last colour saved.
+  </details>
+  <details><summary> Light-Dependent Resistor (LDR) </summary> <br>
+    Used to determine if the light in the room is lower or higher.
+  </details>
+   <details><summary> Ultrasonic Sensor </summary> <br>
+    Used to measure the distance from an object.
+  </details>
+
+  <br> 
+  We are required to implement a menu that facilitates sensor settings, data logging, system status checks, and RGB LED control. 
+The Menu Features are the following:
+1. Sensor Settings:
+- Sensors Sampling Interval: Set a sampling rate between 1 and 10 seconds for sensors.
+- Ultrasonic Alert Threshold: Define a threshold for the ultrasonic sensor to trigger alerts.
+- LDR Alert Threshold: Set a threshold for the LDR sensor to signal alerts, like the onset of night.
+- Back: Returns to the main menu.
+  <br>
+2. Reset Logger Data:
+Options to confirm or deny the deletion of all sensor data, with the ability to reset data either for all sensors at once or individually.
+<br>
+3. System Status
+- Current Sensor Readings: Continuously display readings at the set sampling rate, with an exit option.
+- Current Sensor Settings: Show current sampling rate and threshold values.
+- Display Logged Data: Exhibit the last 10 readings from all sensors.
+- Back: Return to the main menu.
+  <br>
+4. RGB LED Control:
+- Manual Color Control: Allows manual setting of RGB colors.
+-LED: Toggle Automatic ON/OFF: In automatic mode, the LED color changes based on sensor alerts. In manual mode, it retains the last set RGB values.
+- Back: Return to the main menu.
+  <br>
+This interactive menu system is designed to be user-friendly, providing real-time sensor data and control over the system's operations. 
+
+<br><br>
+
+![WhatsApp Image 2023-11-18 at 14 07 25](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/ab9939f7-de17-4c77-8801-a41150afecd6)
+
+  [Vizionati functionalitatea](https://youtu.be/5CoDA14knkE)
+</details>
