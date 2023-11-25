@@ -139,3 +139,38 @@ This interactive menu system is designed to be user-friendly, providing real-tim
 
   [Vizionati functionalitatea](https://youtu.be/5CoDA14knkE)
 </details>
+
+
+
+<details>
+  <summary> Homework 7 - Mini 8x8 Led Matrix Game  </summary>
+  <br> <br>
+
+This homework involves the creation of a game using an 8x8 LED Matrix on an Arduino platform, combined with a Joystick, a MAX7219 display driver, and capacitors, to get familiar using all of this components togheter. The objective is to simulate a game similar to the iconic Bomberman as much as possible.
+<br><br>
+
+**Game Mechanics and Rules:** <br>
+*  Map Initialization: At the start, destructible and indestructible walls are randomly placed on about 65% of the 8x8 matrix, forming the game map.
+* Player Spawn: The player is randomly spawned on the map in an unoccupied space, ensuring there are no walls at the spawn point.
+* The player moves on the map using a joystick the only limit of the player is that he cannot pass through cells that are walls.
+* **Visual Indicators**:
+* The player's current position will blink slowly for visibility.
+* Destructible walls will also blink, but at a rate distinct from the player's position to allow differentiation.
+* Indestructible walls will not blink.
+* Bomb Mechanics
+* Bomb Placement: Players can place multiple bombs simultaneously, by pressing the joystick button, with a limit of one bomb per cell.
+* Bomb Activation: When a bomb is placed in a valid position, a buzzer emits a short sound as an indicator of successful bomb planting.
+* Explosion Dynamics:
+* The bomb explodes after a 3-4 second delay.
+* Upon detonation, it destroys destructible walls within two positions to the left, right, above, and below the bomb's location.
+ <br>
+ 
+**Note** that if an indestructible wall is adjacent to a destructible wall, the destructible wall will remain intact. Also, after a wall is destroyed, the player is notifed of current destroyed walls in the Serial Monitor console.
+<br><br>
+
+![WhatsApp Image 2023-11-25 at 13 48 08](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/a3946d65-68f5-49d4-a3b4-dd7d5b187219)
+
+
+[Vizionati Implementarea](https://www.youtube.com/watch?v=5NH4J8HctsY)
+
+</details>
