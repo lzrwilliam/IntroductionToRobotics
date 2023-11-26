@@ -171,6 +171,6 @@ This homework involves the creation of a game using an 8x8 LED Matrix on an Ardu
 ![WhatsApp Image 2023-11-25 at 13 48 08](https://github.com/lzrwilliam/IntroductionToRobotics/assets/92024459/a3946d65-68f5-49d4-a3b4-dd7d5b187219)
 
 
-[Vizionati Implementarea](https://www.youtube.com/watch?v=5NH4J8HctsY)
+[View the functionality](https://www.youtube.com/watch?v=5NH4J8HctsY)
 
 </details>
